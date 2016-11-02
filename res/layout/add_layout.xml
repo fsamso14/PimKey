@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVnewevent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="New event"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVBegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begin : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETBegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp" >
+
+        <TextView
+            android:id="@+id/TVNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+"
+
+</LinearLayout>
